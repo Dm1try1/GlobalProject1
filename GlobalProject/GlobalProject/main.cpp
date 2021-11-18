@@ -10,6 +10,15 @@ int main()
 	cout << "4) Деление" << endl;
 	cout << "Введите номер операции" << endl;
 	cin >> a ;
+	switch (a)
+	{
+	case 1: 
+	case 2:cout << "Функция в разработке" << endl;
+	case 3:cout << "Функция в разработке" << endl;
+	case 4:cout << "Функция в разработке" << endl;
+	default:
+		break;
+	}
 	system("pause");
 	return 0;
 }
