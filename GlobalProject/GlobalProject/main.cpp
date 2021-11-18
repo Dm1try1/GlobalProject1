@@ -23,7 +23,16 @@ int main()
 		cout << MySum(b1, b) << endl;
 		break;
 	}
-	case 2:cout << "Функция в разработке" << endl;
+	case 2:
+	{
+		double c, c1;;
+		cout << "Введите первую переменную" << endl;
+		cin >> c1;
+		cout << "Введите вторую переменную" << endl;
+		cin >> c;
+		cout << MyVich(c1, c) << endl;
+		break;
+	}
 	case 3:cout << "Функция в разработке" << endl;
 	case 4:cout << "Функция в разработке" << endl;
 	default:
