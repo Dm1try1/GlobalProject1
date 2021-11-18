@@ -1,4 +1,5 @@
 #include <iostream>
+#include "funcs.h"
 using namespace std;
 int main()
 {
@@ -10,6 +11,24 @@ int main()
 	cout << "4) Деление" << endl;
 	cout << "Введите номер операции" << endl;
 	cin >> a ;
+	switch (a)
+	{
+	case 1: 
+	{
+		double  b1,b;
+		cout << "Введите первую переменную" << endl;
+		cin >> b1;
+		cout << "Введите вторую переменную" << endl;
+		cin >> b;
+		cout << MySum(b1, b) << endl;
+		break;
+	}
+	case 2:cout << "Функция в разработке" << endl;
+	case 3:cout << "Функция в разработке" << endl;
+	case 4:cout << "Функция в разработке" << endl;
+	default:
+		break;
+	}
 	system("pause");
 	return 0;
 }
